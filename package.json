@@ -1,0 +1,14 @@
+{
+  "name": "bbooks-mailer",
+  "description": "Service for sending emails to users",
+  "version": "0.0.1",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  },
+  "dependencies": {
+    "fs-extra": "^0.18.3",
+    "mongoose": "^4.0.3"
+  }
+}
