@@ -3,7 +3,7 @@
   "description": "Service for sending emails to users",
   "version": "0.0.1",
   "scripts": {
-      "start": "node index.js"
+    "start": "node index.js"
   },
   "private": true,
   "devDependencies": {
@@ -11,6 +11,8 @@
     "live-exec": "0.0.7"
   },
   "dependencies": {
+    "async": "^1.0.0",
+    "aws-sdk": "^2.1.30",
     "fs-extra": "^0.18.3",
     "mongoose": "^4.0.3"
   }

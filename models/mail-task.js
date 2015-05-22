@@ -8,6 +8,7 @@ var mailTask = new mongoose.Schema({
     from: 'string',
     subject: 'string',
     body: 'string',
+    provider: {type: 'string'},
     urgency: {
         type: 'number',
         default: 0

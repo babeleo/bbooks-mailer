@@ -2,7 +2,9 @@
 
 var Mailer = require('./lib/mailer/')
 var mailer = new Mailer()
+mailer.start({checkInterval: 5000})
 
 setTimeout(function () {
-    mailer.start({checkInterval: 5000})
-}, 3000)
+    console.log('stopping')
+    mailer.stop()
+}, 5000)
