@@ -2,3 +2,7 @@
 Send emails to users
 
 ## Tasks
+```
+start
+test
+```
