@@ -1,28 +1,28 @@
 var mongoose = require('mongoose')
 
 var mailTask = new mongoose.Schema({
-    __v: {
-        select: false
-    },
-    to: 'string',
-    from: 'string',
-    subject: 'string',
-    body: 'string',
-    provider: {type: 'string'},
+    // __v: {
+    //     select: false
+    // },
+    to: String,
+    from: String,
+    subject: String,
+    body: String,
+    provider: String,
     urgency: {
-        type: 'number',
+        type: Number,
         default: 0
     },
-    created: 'date',
-    started: 'date',
-    finished: 'date',
-    status: 'string',
+    created: Date,
+    started: Date,
+    finished: Date,
+    status: String,
     log: [{
         _id: false,
-        logged: 'date',
-        message: 'string',
+        logged: Date,
+        message: String,
         type: {
-            type: 'string'
+            type: String
         }
     }]
 })

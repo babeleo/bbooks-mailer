@@ -7,4 +7,4 @@ mailer.start({checkInterval: 5000})
 setTimeout(function () {
     console.log('stopping')
     mailer.stop()
-}, 5000)
+}, 11000)
