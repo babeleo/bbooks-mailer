@@ -9,13 +9,12 @@
   "private": true,
   "devDependencies": {
     "gulp": "^3.8.11",
-    "live-exec": "0.0.7"
+    "live-exec": "^1.0.0"
   },
   "dependencies": {
     "async": "^1.0.0",
     "aws-sdk": "^2.1.30",
     "fs-extra": "^0.18.3",
-    "live-exec": "^1.0.0",
     "mongoose": "^4.0.3"
   }
 }
